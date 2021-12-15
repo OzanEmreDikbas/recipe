@@ -1,11 +1,13 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
 
 const Details = () => {
-    return (
-        <div>
-            <h1>Details</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Details</h1>
+    </div>
+  );
+};
 
-export default Details
+export default Details;
