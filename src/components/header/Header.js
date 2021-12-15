@@ -1,6 +1,7 @@
-import React from 'react'
-import { HeaderContainer, MainHeader } from './HeaderStyles'
-import Form from "./Form"
+import React from 'react';
+import { HeaderContainer, MainHeader } from './HeaderStyles';
+import Form from "./Form";
+
 const Header = ({setQuery, query, getData, mealTypes, setMeal, meal }) => {
     return (
         <HeaderContainer>
@@ -18,4 +19,4 @@ const Header = ({setQuery, query, getData, mealTypes, setMeal, meal }) => {
         </HeaderContainer>
     )
 }
-export default Header
+export default Header;

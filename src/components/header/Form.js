@@ -32,4 +32,4 @@ const Form = ({ setQuery, query, getData, mealTypes, setMeal, meal}) => {
     )
 }
 
-export default Form
+export default Form;
